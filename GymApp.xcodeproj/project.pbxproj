@@ -14,6 +14,9 @@
 		EF4288E22B4E9A6B001764A7 /* GymAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4288E12B4E9A6B001764A7 /* GymAppTests.swift */; };
 		EF4288EC2B4E9A6B001764A7 /* GymAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4288EB2B4E9A6B001764A7 /* GymAppUITests.swift */; };
 		EF4288EE2B4E9A6B001764A7 /* GymAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4288ED2B4E9A6B001764A7 /* GymAppUITestsLaunchTests.swift */; };
+		EF4288FB2B4E9ECC001764A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF4288FA2B4E9ECC001764A7 /* GoogleService-Info.plist */; };
+		EF4288FC2B4E9ECC001764A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF4288FA2B4E9ECC001764A7 /* GoogleService-Info.plist */; };
+		EF4288FD2B4E9ECC001764A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF4288FA2B4E9ECC001764A7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,7 @@
 		EF4288E72B4E9A6B001764A7 /* GymAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4288EB2B4E9A6B001764A7 /* GymAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAppUITests.swift; sourceTree = "<group>"; };
 		EF4288ED2B4E9A6B001764A7 /* GymAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF4288FA2B4E9ECC001764A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		EF4288CF2B4E9A69001764A7 /* GymApp */ = {
 			isa = PBXGroup;
 			children = (
+				EF4288FA2B4E9ECC001764A7 /* GoogleService-Info.plist */,
 				EF4288D02B4E9A69001764A7 /* GymAppApp.swift */,
 				EF4288D22B4E9A69001764A7 /* ContentView.swift */,
 				EF4288D42B4E9A6B001764A7 /* Assets.xcassets */,
@@ -233,6 +238,7 @@
 			files = (
 				EF4288D82B4E9A6B001764A7 /* Preview Assets.xcassets in Resources */,
 				EF4288D52B4E9A6B001764A7 /* Assets.xcassets in Resources */,
+				EF4288FB2B4E9ECC001764A7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF4288FC2B4E9ECC001764A7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF4288FD2B4E9ECC001764A7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
